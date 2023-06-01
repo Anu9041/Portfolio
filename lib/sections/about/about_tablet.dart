@@ -127,16 +127,16 @@ class AboutTab extends StatelessWidget {
           Space.y1!,
           Row(
             children: [
-              SizedBox(
-                height: AppDimensions.normalize(13),
-                width: AppDimensions.normalize(40),
-                child: OutlinedButton(
-                  onPressed: () => html.window.open(StaticUtils.resume, 'pdf'),
-                  child: const Text(
-                    "Resume",
-                  ),
-                ),
-              ),
+              // SizedBox(
+              //   height: AppDimensions.normalize(13),
+              //   width: AppDimensions.normalize(40),
+              //   child: OutlinedButton(
+              //     onPressed: () => html.window.open(StaticUtils.resume, 'pdf'),
+              //     child: const Text(
+              //       "Resume",
+              //     ),
+              //   ),
+              // ),
               Space.x!,
               Container(
                 width: width * 0.05,

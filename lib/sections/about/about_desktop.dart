@@ -102,11 +102,11 @@ class AboutDesktop extends StatelessWidget {
                             children: const [
                               AboutMeData(
                                 data: "Name",
-                                information: "Muhammad Hamza",
+                                information: "Anuradha Singh",
                               ),
                               AboutMeData(
                                 data: "Age",
-                                information: "24",
+                                information: "21",
                               ),
                             ],
                           ),
@@ -116,11 +116,11 @@ class AboutDesktop extends StatelessWidget {
                             children: const [
                               AboutMeData(
                                 data: "Email",
-                                information: "hamza.6.shakeel@gmail.com",
+                                information: "anuradhasingh9041@gmail.com",
                               ),
                               AboutMeData(
                                 data: "From",
-                                information: "Attock, PK",
+                                information: "Gaya Bihar, India",
                               ),
                             ],
                           ),
@@ -129,18 +129,6 @@ class AboutDesktop extends StatelessWidget {
                       Space.y1!,
                       Row(
                         children: [
-                          SizedBox(
-                            height: AppDimensions.normalize(13),
-                            width: AppDimensions.normalize(40),
-                            child: OutlinedButton(
-                              onPressed: () =>
-                                  html.window.open(StaticUtils.resume, 'pdf'),
-                              child: const Text(
-                                "Resume",
-                              ),
-                            ),
-                          ),
-                          Space.x1!,
                           Container(
                             color: Colors.grey[900]!,
                             width: AppDimensions.normalize(30),

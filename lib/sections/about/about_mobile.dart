@@ -96,20 +96,20 @@ class AboutMobile extends StatelessWidget {
           ),
           const AboutMeData(
             data: "Name",
-            information: "Muhammad Hamza",
+            information: "Anuradha Singh",
           ),
           const AboutMeData(
             data: "Email",
-            information: "hamza.6.shakeel@gmail.com",
+            information: "anuradhasingh9041@gmail.com",
           ),
           Space.y!,
-          OutlinedButton(
-              child: const Text("Resume"),
-              onPressed: () {
-                kIsWeb
-                    ? html.window.open(StaticUtils.resume, "pdf")
-                    : openURL(StaticUtils.resume);
-              }),
+          // OutlinedButton(
+          //     child: const Text("Resume"),
+          //     onPressed: () {
+          //       kIsWeb
+          //           ? html.window.open(StaticUtils.resume, "pdf")
+          //           : openURL(StaticUtils.resume);
+          //     }),
           Space.y!,
           Wrap(
               alignment: WrapAlignment.center,

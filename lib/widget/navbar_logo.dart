@@ -14,7 +14,7 @@ class NavBarLogo extends StatelessWidget {
           style: AppText.b1,
         ),
         Text(
-          "Hamza",
+          "Anuradha",
           style: AppText.b1b!.copyWith(
             fontFamily: 'Agustina',
           ),
